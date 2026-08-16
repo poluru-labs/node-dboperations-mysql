@@ -45,4 +45,12 @@ await db.close();
 
 ## Examples
 
-See the example files in the `examples` directory for CRUD, pagination, filtering, and Express usage.
+The examples directory includes a few common workflows you can adapt quickly:
+
+- `basic-crud.ts` — insert, read, update, and delete a user
+- `conditional-filtering.ts` — query by multiple conditions and date-based filters
+- `pagination-and-ordering.ts` — page through rows and sort results
+- `raw-query.ts` — run custom SQL and aggregate results
+- `bulk-insert.ts` — insert multiple records in sequence
+- `transaction.ts` — wrap related database changes in a transaction
+- `express-example.ts` — expose the database layer through an Express API
